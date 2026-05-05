@@ -118,4 +118,29 @@ import { openContactModal } from './state'
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 95%;
+    padding: 0.5rem 0;
+  }
+  .nav-container {
+    padding: 0 0.75rem;
+  }
+  .logo {
+    gap: 0.35rem;
+  }
+  .logo-img {
+    height: 28px;
+  }
+  .logo-text {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+  .btn-sm {
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+}
 </style>
