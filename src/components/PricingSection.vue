@@ -185,4 +185,10 @@ import { openContactModal } from '../state'
     transform: scale(1);
   }
 }
+
+@media (max-width: 768px) {
+  .pricing-card {
+    padding: 2rem 1.5rem;
+  }
+}
 </style>

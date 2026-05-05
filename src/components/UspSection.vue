@@ -161,10 +161,19 @@
   .usp-item {
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
   }
   .usp-item.reverse {
     direction: ltr;
+  }
+}
+
+@media (max-width: 768px) {
+  .usp-item {
+    padding: 1.25rem;
+  }
+  .usp-image {
+    min-height: 250px;
   }
 }
 </style>

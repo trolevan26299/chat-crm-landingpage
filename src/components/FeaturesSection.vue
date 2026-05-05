@@ -93,4 +93,10 @@
   color: var(--text-muted);
   font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+  .feature-card {
+    padding: 1.5rem;
+  }
+}
 </style>
