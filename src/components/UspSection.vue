@@ -160,7 +160,7 @@
 @media (max-width: 992px) {
   .usp-item {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 1.5rem;
   }
   .usp-item.reverse {
@@ -169,8 +169,12 @@
 }
 
 @media (max-width: 768px) {
+  .usp-icon {
+    display: none; /* Ẩn icon trên mobile theo yêu cầu */
+  }
   .usp-item {
     padding: 1.25rem;
+    gap: 1rem;
   }
   .usp-image {
     min-height: 250px;

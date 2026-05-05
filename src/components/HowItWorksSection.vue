@@ -109,10 +109,22 @@
   .steps-container {
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem; /* Giảm gap giữa các card và mũi tên */
+    margin-bottom: 2rem;
+  }
+  .step-card {
+    padding: 1rem; /* Giảm padding trên dưới của từng step */
   }
   .step-arrow {
     transform: rotate(90deg);
     margin: 0;
+    height: 40px; /* Cố định chiều cao mũi tên nhỏ lại */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-header {
+    margin-bottom: 2rem; /* Giảm khoảng cách từ tiêu đề xuống các bước */
   }
 }
 </style>
