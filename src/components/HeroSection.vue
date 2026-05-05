@@ -8,7 +8,7 @@ import { openContactModal } from '../state'
       <div class="hero-badge">Đột Phá Bán Hàng 2026</div>
       
       <h1 class="hero-title">
-        Quản Lý Hàng Loạt Zalo Cá Nhân &<br />
+        Quản Lý Hàng Loạt Zalo Cá Nhân &<br class="desktop-only" />
         <span class="text-gradient">Tự Động Hóa Chăm Sóc Bằng AI</span>
       </h1>
       
@@ -107,8 +107,28 @@ import { openContactModal } from '../state'
 }
 
 @media (max-width: 768px) {
-  .hero-title { font-size: 2.25rem; }
-  .hero-subtitle { font-size: 1.125rem; }
-  .hero-actions { flex-direction: column; }
+  .hero-title { 
+    font-size: 2rem; 
+    line-height: 1.3;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .hero-subtitle { 
+    font-size: 1.05rem; 
+    margin-bottom: 2rem;
+  }
+  .hero-actions { 
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .btn-primary {
+    width: 100%;
+    max-width: 300px;
+  }
+  .mockup-container {
+    padding: 0.25rem;
+  }
 }
 </style>
