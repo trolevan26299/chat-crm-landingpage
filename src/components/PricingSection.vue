@@ -58,8 +58,9 @@ import { openContactModal } from '../state'
             <ul>
               <li><span class="check">✓</span> <strong>Không giới hạn</strong> tài khoản Zalo</li>
               <li><span class="check">✓</span> Đầy đủ tính năng Business</li>
-              <li><span class="check highlight">✓</span> <strong>AI RAG (Đào tạo dữ liệu riêng)</strong></li>
+              <li><span class="check highlight">✓</span> <strong>Hỗ trợ training đào tạo dữ liệu riêng</strong></li>
               <li><span class="check highlight">✓</span> Server riêng biệt (Private Cloud)</li>
+              <li><span class="check highlight">✓</span> <strong>Hỗ trợ thêm tính năng cá nhân hóa</strong></li>
               <li><span class="check">✓</span> Hỗ trợ kỹ thuật 24/7 ưu tiên</li>
             </ul>
           </div>
