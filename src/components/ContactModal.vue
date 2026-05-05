@@ -19,9 +19,7 @@ watch(isContactModalOpen, (newVal) => {
   }
 })
 
-// TODO: Điền Token và Chat ID của bạn vào đây
-const TELEGRAM_BOT_TOKEN = 'YOUR_BOT_TOKEN'
-const TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID'
+// Đã điền cứng token ở bên dưới
 
 const submitForm = async () => {
   if (!form.value.name || !form.value.phone) {
