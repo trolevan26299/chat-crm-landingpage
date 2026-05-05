@@ -133,11 +133,9 @@
 
 .usp-content code {
   background: rgba(255, 255, 255, 0.1);
-  padding: 0.1rem 0.3rem;
+  padding: 0.2rem 0.4rem;
   border-radius: 4px;
   color: var(--accent);
-  display: inline-block;
-  line-height: 1.2;
 }
 
 .cropped-img {
