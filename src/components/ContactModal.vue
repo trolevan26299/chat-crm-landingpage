@@ -336,4 +336,41 @@ const closeModal = () => {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+@media (max-width: 768px) {
+  .modal-container {
+    padding: 1.5rem;
+    max-height: 95vh;
+    overflow-y: auto;
+  }
+  .close-btn {
+    top: 0.75rem;
+    right: 1rem;
+  }
+  .modal-header {
+    margin-bottom: 1rem;
+  }
+  .modal-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .modal-header p {
+    display: none; /* Ẩn dòng chữ phụ trên mobile cho gọn */
+  }
+  .contact-form {
+    gap: 0.75rem;
+  }
+  .form-group {
+    gap: 0.25rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.95rem;
+  }
+  .submit-btn {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+  }
+}
 </style>
