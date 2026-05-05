@@ -41,7 +41,7 @@ import { openContactModal } from '../state'
               <li><span class="check">✓</span> Lên đến <strong>20</strong> tài khoản Zalo</li>
               <li><span class="check">✓</span> Đầy đủ tính năng Starter</li>
               <li><span class="check highlight">✓</span> <strong>Chiến dịch gửi hàng loạt</strong></li>
-              <li><span class="check highlight">✓</span> <strong>AI tự động trả lời & Gợi ý</strong></li>
+              <li><span class="check highlight">✓</span> <strong>AI tự động trả lời & AI RAG</strong></li>
               <li><span class="check highlight">✓</span> Workflow tự động hóa</li>
             </ul>
           </div>
@@ -145,7 +145,7 @@ import { openContactModal } from '../state'
 .plan-features li {
   margin-bottom: 1rem;
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 0.75rem;
 }
 
