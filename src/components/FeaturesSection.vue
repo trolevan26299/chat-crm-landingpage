@@ -50,6 +50,7 @@
 <style scoped>
 .features-section {
   position: relative;
+  overflow: hidden;
 }
 
 .features-section::before {
