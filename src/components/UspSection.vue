@@ -36,7 +36,7 @@
           <div class="usp-content">
             <div class="usp-icon">📢</div>
             <h3>3. Chiến Dịch Sale & Marketing Tự Động Hàng Loạt</h3>
-            <p>Lên kế hoạch gửi tin nhắn chăm sóc, khuyến mãi cho hàng ngàn khách hàng chỉ với vài click. Hỗ trợ gửi kèm nhiều hình ảnh, cá nhân hóa nội dung (<code v-pre>{{tên_khách_hàng}}</code>), lập lịch gửi tự động theo ngày/giờ và cơ chế chống spam thông minh để bảo vệ tài khoản Zalo.</p>
+            <p>Lên kế hoạch gửi tin nhắn chăm sóc, khuyến mãi cho hàng ngàn khách hàng chỉ với vài click. Hỗ trợ gửi kèm nhiều hình ảnh, cá nhân hóa nội dung, lập lịch gửi tự động theo ngày/giờ và cơ chế chống spam thông minh để bảo vệ tài khoản Zalo.</p>
           </div>
           <div class="usp-image">
             <img src="/assets/3.png" alt="Giao diện setup chiến dịch gửi tin nhắn hàng loạt" class="usp-img cropped-img" />
